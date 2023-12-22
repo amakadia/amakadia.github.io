@@ -1,0 +1,37 @@
+<html>
+<title>Image Annotation</title>
+<body>
+
+Papers:<br>
+A New Baseline for Image Annotation.<br>
+Ameesh Makadia, Vladimir Pavlovic, and Sanjiv Kumar.<br>
+In European Conference on Computer Vision, 2008 (ECCV 2008).<br>
+Download: (<a href="http://www.ameeshmakadia.com/publications/makadia08eccv.pdf">PDF</a>)
+<p>
+Baselines for Image Annotation.<br>
+Ameesh Makadia, Vladimir Pavlovic, and Sanjiv Kumar.<br>
+<i>International Journal of Computer Vision</i>, Volume 90, Issue 1, October 2010.<br>
+Download: (<a href="http://www.ameeshmakadia.com/publications/baselines10ijcv.pdf">PDF</a>)
+<p>
+
+
+<br>
+<br>
+Datasets:
+<br>
+ESP Game (<a href="http://www.espgame.org/">espgame.org</a>)<br>
+Our evaluation dataset was a subset of the corpus available at (<a href="http://www.hunch.net/~jl/">http://www.hunch.net/~jl/</a>).<br>
+To replicate our dataset exactly, you will need to download <a href="http://www.ameeshmakadia.com/annotation/esp_data.mat">esp_data.mat</a>.<br>
+This Matlab data file contains four variables:<br>
+'dict': a cell array containing all the words in the dictionary.<br>
+'data': a struct with two fields. 'data(i).keywords' is an index vector into 'dict' listing the keywords associated with image i. 'data(i).file' is the filename of image i.<br>
+'train': an index vector for the training set.  E.g. data(train) gives the keyword indices and filenames for the training set.<br>
+'test': same as 'train' but for the test/evaluation set.<br>  
+
+<br><br>
+IAPR TC 12<br>
+Our evaluation dataset was a subset of the corpus available at (<a href="http://eureka.vu.edu.au/~grubinger/IAPR/TC12_Benchmark.html">http://eureka.vu.edu.au/~grubinger/IAPR/TC12_Benchmark.html</a>).<br>
+To replicate our dataset exactly, you will need to download <a href="http://www.ameeshmakadia.com/annotation/iapr_data.mat">iapr_data.mat</a>.<br>
+This Matlab data file follows the same structure as for the ESP set explained above.<br>
+</body>
+</html>
