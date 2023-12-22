@@ -1,0 +1,8 @@
+@misc{davis2020time,
+      title={Time Dependence in Non-Autonomous Neural ODEs}, 
+      author={Jared Quincy Davis and Krzysztof Choromanski and Jake Varley and Honglak Lee and Jean-Jacques Slotine and Valerii Likhosterov and Adrian Weller and Ameesh Makadia and Vikas Sindhwani},
+      year={2020},
+      eprint={2005.01906},
+      archivePrefix={arXiv},
+      primaryClass={cs.LG}
+}

@@ -1,0 +1,9 @@
+@incollection{Makadia06constrained,
+  author = {Ameesh Makadia},
+  editor = {Kostas Daniilidis and Reinhard Klette},
+  title = {Correspondenceless Visual Navigation under Constrained Motion},
+  booktitle = {Imaging Beyond the Pinhole Camera},
+  publisher = {Kluwer Press},
+  year = {2006},
+  pages = {253--268}
+}

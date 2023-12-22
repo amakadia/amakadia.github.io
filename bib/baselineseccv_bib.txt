@@ -1,0 +1,7 @@
+@inproceedings{makadia08eccv,
+  author    = {Ameesh Makadia and Vladimir Pavlovic and Sanjiv Kumar},
+  title     = {A New Baseline for Image Annotation},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  pages     = {316--329},
+  year      = {2008},
+}

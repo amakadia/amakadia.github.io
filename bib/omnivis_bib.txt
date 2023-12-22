@@ -1,0 +1,7 @@
+@inproceedings{daniilidis02omnivis,
+  author    = {Kostas Daniilidis and Ameesh Makadia and Thomas B{\"u}low},
+  title     = {Image Processing in Catadioptric Planes: Spatiotemporal Derivatives and Optical Flow Computation},
+  booktitle = {Workshop on Omnidirectional Vision at (ECCV)},
+  pages     = {3--12},
+  year      = {2002},
+}

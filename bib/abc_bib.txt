@@ -1,0 +1,6 @@
+@inproceedings{murphy2022abc,
+    author={Kieran A. Murphy and Varun Jampani and Srikumar Ramalingam and Ameesh Makadia},
+    title={Learning ABCs: Approximate Bijective Correspondence for isolating factors of variation with weak supervision},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year = {2022}
+}

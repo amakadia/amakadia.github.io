@@ -1,0 +1,7 @@
+@inproceedings{litany18cvpr,
+  author    = {Or Litany and Alex Bronstein and Michael Bronstein and Ameesh Makadia},
+  title     = {Deformable Shape Completion With Graph Convolutional Autoencoders},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {1886--1895},
+  year      = {2018},
+}

@@ -1,0 +1,7 @@
+@inproceedings{makadia05icra,
+  author    = {Ameesh Makadia and Kostas Daniilidis},
+  title     = {Correspondenceless Ego-Motion Estimation Using an {IMU}},
+  booktitle = {{IEEE} International Conference on Robotics and Automation (ICRA)},
+  pages     = {3534--3539},
+  year      = {2005},
+}

@@ -1,0 +1,7 @@
+@inproceedings{weston13icml,
+  author    = {Jason Weston and Ameesh Makadia and Hector Yee},
+  title     = {Label Partitioning For Sublinear Ranking},
+  booktitle = {International Conference on Machine Learning (ICML)},
+  pages     = {181--189},
+  year      = {2013},
+}

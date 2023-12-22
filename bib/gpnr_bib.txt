@@ -1,0 +1,6 @@
+@inproceedings{suhail2022generalizable,
+    author={Mohammed Suhail and Carlos Esteves, Leonid Sigal and Ameesh Makadia},
+    title={Generalizable Patch-Based Neural Rendering},
+    booktitle={European Conference on Computer Vision},
+    year = {2022}
+}

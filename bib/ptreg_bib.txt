@@ -1,0 +1,7 @@
+@inproceedings{makadia06cvpr,
+  author    = {Ameesh Makadia and Alexander Patterson and Kostas Daniilidis},
+  title     = {Fully Automatic Registration of {3D} Point Clouds},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {1297--1304},
+  year      = {2006},
+}

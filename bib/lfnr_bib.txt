@@ -1,0 +1,6 @@
+@inproceedings{mohammed2022lfnr,
+    author={Mohammed Suhail and Carlos Esteves, Leonid Sigal and Ameesh Makadia},
+    title={Light Field Neural Rendering},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year = {2022}
+}

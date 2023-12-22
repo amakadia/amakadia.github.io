@@ -1,0 +1,7 @@
+@inproceedings{makadia05cvpr,
+  author    = {Ameesh Makadia and Christopher Geyer and Shankar Sastry and Kostas Daniilidis},
+  title     = {Radon-Based Structure from Motion without Correspondences},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {796--803},
+  year      = {2005},
+}

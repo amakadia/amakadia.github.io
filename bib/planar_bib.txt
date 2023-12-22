@@ -1,0 +1,9 @@
+@inproceedings{makadia05wacvmotion,
+  author={Ameesh Makadia and Dinkar Gupta and Kostas Daniilidis},
+  booktitle={IEEE Workshops on Applications of Computer Vision (WACV/MOTION)}, 
+  title={Planar Ego-Motion Without Correspondences}, 
+  year={2005},
+  volume={2},
+  number={},
+  pages={160-165},
+}

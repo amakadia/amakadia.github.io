@@ -1,0 +1,7 @@
+@inproceedings{implicitpdf2021,
+  title = {Implicit-PDF: Non-Parametric Representation of Probability Distributions on the Rotation Manifold},
+  author = {Murphy, Kieran A and Esteves, Carlos and Jampani, Varun and Ramalingam, Srikumar and Makadia, Ameesh},
+  booktitle = {Proceedings of the 38th International Conference on Machine Learning},
+  pages = {7882--7893},
+  year = {2021}
+}

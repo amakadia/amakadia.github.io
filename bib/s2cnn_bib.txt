@@ -1,0 +1,14 @@
+@inproceedings{esteves18eccv,
+  author    = {Carlos Esteves and Christine Allen{-}Blanchette and Ameesh Makadia and Kostas Daniilidis},
+  title     = {Learning {SO(3)} Equivariant Representations with Spherical {CNN}s},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  pages     = {54--70},
+  year      = {2018},
+}
+
+@inproceedings{esteves19ijcv,
+  author    = {Carlos Esteves and Christine Allen{-}Blanchette and Ameesh Makadia and Kostas Daniilidis},
+  title     = {Learning {SO(3)} Equivariant Representations with Spherical {CNN}s},
+  journal   = {International Journal of Computer Vision},
+  year      = {2019},
+}

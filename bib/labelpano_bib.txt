@@ -1,0 +1,6 @@
+@inproceedings{esteves18panow,
+  author    = {Carlos Esteves and Kostas Daniilidis and Ameesh Makadia},
+  title     = {Labeling Panoramas with Spherical Hourglass Networks},
+  booktitle = {360${}^\circ$ Perception and Interaction Workshop at {ECCV}},
+  year      = {2018},
+}

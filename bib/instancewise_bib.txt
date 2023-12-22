@@ -1,0 +1,8 @@
+@InProceedings{Singhal_2023_flowinv_ICCV,
+author    = {Singhal, Utkarsh and Esteves, Carlos and Makadia, Ameesh and Yu, Stella X.},
+title     = {Learning to Transform for Generalizable Instance-wise Invariance},
+booktitle = {Proceedings of the IEEE/CVF International Conference on Computer Vision (ICCV)},
+month     = {October},
+year      = {2023},
+pages     = {6211-6221}
+}

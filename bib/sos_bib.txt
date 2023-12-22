@@ -1,0 +1,6 @@
+@inproceedings{ahmadi17rss,
+  author    = {Amir Ali Ahmadi and Georgina Hall and Ameesh Makadia and Vikas Sindhwani},
+  title     = {Geometry of {3D} Environments and Sum of Squares Polynomials},
+  booktitle = {Robotics: Science and Systems XIII},
+  year      = {2017},
+}

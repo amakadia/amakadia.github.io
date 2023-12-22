@@ -1,0 +1,9 @@
+@article{makadia06pami,
+  author    = {Ameesh Makadia and Kostas Daniilidis},
+  title     = {Rotation Recovery from Spherical Images without Correspondences},
+  journal   = {{IEEE} Transactions on Pattern Analysis and Machine Intelligence (TPAMI)},
+  volume    = {28},
+  number    = {7},
+  pages     = {1170--1175},
+  year      = {2006},
+}

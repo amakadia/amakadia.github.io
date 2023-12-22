@@ -1,0 +1,9 @@
+@article{makadia07ijcv,
+  author    = {Ameesh Makadia and Christopher Geyer and Kostas Daniilidis},
+  title     = {Correspondence-free Structure from Motion},
+  journal   = {International Journal of Computer Vision},
+  volume    = {75},
+  number    = {3},
+  pages     = {311--327},
+  year      = {2007},
+}

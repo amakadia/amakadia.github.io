@@ -1,0 +1,11 @@
+@inproceedings{esteves20neurips,
+ author = {Esteves, Carlos and Makadia, Ameesh and Daniilidis, Kostas},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin},
+ pages = {8614--8625},
+ publisher = {Curran Associates, Inc.},
+ title = {Spin-Weighted Spherical {CNN}s},
+ volume = {33},
+ year = {2020}
+}
+

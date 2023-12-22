@@ -1,0 +1,6 @@
+@inproceedings{makadia073dtv,
+  author    = {Ameesh Makadia, Mirko Visontai, and Kostas Daniilidis},
+  title     = {Harmonic Silhouette Matching for {3D} Models},
+  booktitle = {3DTV},
+  year      = {2007},
+}

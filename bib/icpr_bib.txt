@@ -1,0 +1,7 @@
+@inproceedings{makadia04icpr,
+  author    = {Ameesh Makadia and Lorenzo Sorgi and Kostas Daniilidis},
+  title     = {Rotation Estimation from Spherical Images},
+  booktitle = {International Conference on Pattern Recognition (ICPR)},
+  pages     = {590--593},
+  year      = {2004},
+}

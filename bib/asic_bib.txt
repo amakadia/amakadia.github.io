@@ -1,0 +1,6 @@
+@inproceedings{gupta2023asic,
+  title         = {ASIC: Aligning Sparse Image Collections},
+  author        = {Gupta, Kamal and Jampani, Varun and Esteves, Carlos and Shrivastava, Abhinav and Makadia, Abhinav and Snavely, Noah and Kar, Abhishek},
+  booktitle = {Proceedings of the IEEE International Conference on Computer Vision (ICCV)},
+  year          = {2023},
+}

@@ -1,0 +1,7 @@
+@phdthesis{makadia07dissertation,
+  author = {Ameesh Makadia},
+  title = {Robust Correspondence-free Algorithms for {3D} Motion Recovery},
+  school = {University of Pennsylvania},
+  year = {2007},
+  note = {{Morris and Dorothy Rubinoff} Award for the best CIS PhD dissertation},
+}

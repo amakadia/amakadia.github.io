@@ -1,0 +1,7 @@
+@inproceedings{toshev09cvpr,
+  author    = {Alexander Toshev and Ameesh Makadia and Kostas Daniilidis},
+  title     = {Shape-based object recognition in videos using {3D} synthetic object models},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {288--295},
+  year      = {2009},
+}

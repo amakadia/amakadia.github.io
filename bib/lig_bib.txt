@@ -1,0 +1,6 @@
+@inproceedings{jiang2020cvpr,
+  title={Local Implicit Grid Representations for 3D Scenes},
+  author={Jiang, Chiyu and Sud, Avneesh and Makadia, Ameesh and Huang, Jingwei and Nie{\ss}ner, Matthias and Funkhouser, Thomas},
+  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+  year={2020}
+}

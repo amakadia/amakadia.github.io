@@ -1,0 +1,9 @@
+@article{makadia10ijcvAnnot,
+  author    = {Ameesh Makadia and Vladimir Pavlovic and Sanjiv Kumar},
+  title     = {Baselines for Image Annotation},
+  journal   = {International Journal of Computer Vision},
+  volume    = {90},
+  number    = {1},
+  pages     = {88--105},
+  year      = {2010},
+}

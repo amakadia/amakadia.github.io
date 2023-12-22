@@ -1,0 +1,7 @@
+@inproceedings{makadia03cvpr,
+  author    = {Ameesh Makadia and Kostas Daniilidis},
+  title     = {Direct {3D}-Rotation Estimation from Spherical Images via a Generalized Shift Theorem},
+  booktitle = {{IEEE} Conference on Computer Vision and Pattern Recognition (CVPR)},
+  pages     = {217--226},
+  year      = {2003},
+}

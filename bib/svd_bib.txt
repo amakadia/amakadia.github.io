@@ -1,0 +1,11 @@
+@inproceedings{levinson20neurips,
+ author = {Levinson, Jake and Esteves, Carlos and Chen, Kefan and Snavely, Noah and Kanazawa, Angjoo and Rostamizadeh, Afshin and Makadia, Ameesh},
+ booktitle = {Advances in Neural Information Processing Systems},
+ editor = {H. Larochelle and M. Ranzato and R. Hadsell and M. F. Balcan and H. Lin},
+ pages = {22554--22565},
+ publisher = {Curran Associates, Inc.},
+ title = {An Analysis of {SVD} for Deep Rotation Estimation},
+ volume = {33},
+ year = {2020}
+}
+

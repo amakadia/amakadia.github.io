@@ -1,0 +1,6 @@
+@inproceedings{chen21cvpr,
+ author = {Chen, Kefan and Snavely, Noah, and Makadia, Ameesh},
+ title = {Wide-Baseline Relative Camera Pose Estimation with Directional Learning},
+ booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
+ year={2021},
+}

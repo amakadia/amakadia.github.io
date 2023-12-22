@@ -1,0 +1,9 @@
+@article{makadia10ijcvSph,
+  author    = {Ameesh Makadia and Kostas Daniilidis},
+  title     = {Spherical Correlation of Visual Representations for {3D} Model Retrieval},
+  journal   = {International Journal of Computer Vision},
+  volume    = {89},
+  number    = {2-3},
+  pages     = {193--210},
+  year      = {2010},
+}

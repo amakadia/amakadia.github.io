@@ -1,0 +1,7 @@
+@inproceedings{makadia10eccv,
+  author    = {Ameesh Makadia},
+  title     = {Feature Tracking for Wide-Baseline Image Retrieval},
+  booktitle = {European Conference on Computer Vision (ECCV)},
+  pages     = {310--323},
+  year      = {2010},
+}

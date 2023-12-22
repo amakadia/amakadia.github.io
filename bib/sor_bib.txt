@@ -1,0 +1,6 @@
+@InProceedings{wu2021derender,
+    author={Shangzhe Wu and Ameesh Makadia and Jiajun Wu and Noah Snavely and Richard Tucker and Angjoo Kanazawa},
+    title={De-rendering the World's Revolutionary Artefacts},
+    booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+    year = {2021}
+}

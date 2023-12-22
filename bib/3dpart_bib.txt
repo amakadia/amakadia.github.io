@@ -1,0 +1,7 @@
+@inproceedings{makadia143dv,
+  author    = {Ameesh Makadia and Mehmet Ersin Y{\"{u}}mer},
+  title     = {Learning {3D} Part Detection from Sparsely Labeled Data},
+  booktitle = {International Conference on {3D} Vision (3DV)},
+  pages     = {311--318},
+  year      = {2014},
+}
