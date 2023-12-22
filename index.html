@@ -1,0 +1,1213 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Ameesh Makadia</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    <link rel="icon" href="./media/tabicon.png">
+
+    <!-- Bootstrap core CSS -->
+<!--<link href="../assets/dist/css/bootstrap.min.css" rel="stylesheet">
+-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-RWT6673P9W"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-RWT6673P9W');
+</script>
+
+  </head>
+  <body>
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Ameesh Makadia</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="#News">News</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#About">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Publications"> Publications</a>
+          </li>
+        </ul>
+        <!--<form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>-->
+      </div>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+  <style>
+  .responsive-30 {
+    width: 30%;
+    max-width: 150px;
+    height: auto;
+    border-radius: 4%;
+    margin-right: 10px;
+  }
+  svg:hover {
+    fill: red;
+  }
+  .overlay-image {
+    position: absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    top:0;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    opacity:0.5;
+  }
+  </style>
+
+
+<br>
+<div class="container">
+  <div class="row featurette">
+    <div class="offset-md-0">
+      <img src="./ameesh.jpg" class="responsive-30" align="left" alt="A picture of Ameesh">
+      <span class="lead-small">Ameesh Makadia
+        <span class="text-secondary">
+          <br>Research Scientist
+          <br>Google Research
+          <br>New York, NY
+          <br><a href = "mailto:makadia@gmail.com">makadia@gmail.com</a>
+          <br>
+          <br>
+          <br>
+          <br>
+
+          <!--<a href="mailto:makadia@gmail.com" class="text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="blue" class="bi bi-envelope" viewBox="0 0 16 16">
+              <path d="M0 4a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v8a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V4zm2-1a1 1 0 0 0-1 1v.217l7 4.2 7-4.2V4a1 1 0 0 0-1-1H2zm13 2.383-4.758 2.855L15 11.114v-5.73zm-.034 6.878L9.271 8.82 8 9.583 6.728 8.82l-5.694 3.44A1 1 0 0 0 2 13h12a1 1 0 0 0 .966-.739zM1 11.114l4.758-2.876L1 5.383v5.73z"/>
+            </svg>
+          </a>-->
+
+          <a href="https://twitter.com/kiamada" class="text-decoration-none">
+            <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1184ff" class="bi bi-twitter" viewBox="0 0 16 16">
+              <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
+            </svg>
+          </a>
+          &nbsp<a href="https://www.linkedin.com/in/ameesh-makadia-873133/" class="text-decoration-none">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#1184ff" class="bi bi-linkedin" viewBox="0 0 16 16">
+              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
+            </svg>
+          </a>
+          &nbsp<a href="https://scholar.google.com/citations?user=OT1uf7kAAAAJ&hl=en" class="text-decoration-none">
+            <svg class="svg" xmlns="http://www.w3.org/2000/svg" aria-label="Google Scholar" role="img"
+            viewBox="0 0 512 512" height="30" width="30" fill="#1184ff"><rect width="512" height="512"
+            rx="35%"/><path fill="#fff" d="M213 111l-107 94h69c5 45 41 64 78 67-7 18-4 27 7 39-43 1-103 26-103 67 4 45 63 54 92 54 38 1 81-19 90-54 4-35-10-54-31-71-23-18-28-28-21-40 15-17 35-27 39-51 2-17-2-28-6-43l45-38-1 16c-3 2-5 6-5 9v103c2 13 22 11 23 0V160c0-3-2-7-5-8v-25l16-16zm58 141c-61 10-87-87-38-99 56-11 83 86 38 99zm-5 73c60 13 61 63 10 78-44 9-82-4-81-30 0-25 35-48 71-48z"/>
+            </svg>
+          </a>
+          &nbsp<a href="https://research.google/people/AmeeshMakadia/" class="text-decoration-none">
+            <img src="./media/googleai.png" height="35" width="35"/>
+          </a>
+        </div>
+      <!--<p class="lead">Some great dsfjasdkfj laskdjfasldkjf  content for the first featurette here. Imagine some exciting prose here.</p>-->
+  </span>
+</span>
+
+     <!-- <div class="col-md-5">
+      <svg class="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+    </div>
+    -->
+    <hr class="featurette-divider">
+
+  </div>
+</div>
+
+<div class="container" id="News" style="padding-top: 50px; margin-top: -50px;">
+  <div class="row featurette">
+    <div class="offset-md-0">
+<h4><span class="badge bg-danger">New</span></h4>
+</div>
+
+  <div class="col-md-11 offset-md-1">
+  <span class="lead"><ul>
+<li><span style="color:#027bff"><i><span style="color:#ff0000">Single Mesh Diffusion Models with Field Latents for Texture Generation</span></i> posted to arXiv.</span></li>
+<li><span style="color:#027bff"><i><span style="color:#ff0000">NAVI</span></i> dataset paper accepted to NeurIPS 2023.</span></li>
+<li><span style="color:#027bff">Three papers accepted to <span style="color:#ff0000">ICCV 2023</span>: <i><span style="color:#ff0000">LU-NeRF, ASIC</span></i>, and <i><span style="color:#ff0000">Generalizable Instance-wise Invariance</i></span>.</span></li>
+<li><span style="color:#027bff"><i><span style="color:#ff0000">Google Research blog post (<a href="https://blog.research.google/2023/10/scalable-spherical-cnns-for-scientific.html">link</a>)</span></i> on scaling spherical CNNs for scientific applications.</span></li>
+</ul>
+  </span>
+
+</div>
+<hr class="featurette-divider">
+
+</div>
+
+</div>
+
+</div>
+<div class="container" id="About" style="padding-top: 50px; margin-top: -50px;">
+  <div class="row featurette">
+    <div class="col-md-11 offset-md-0">
+<h4><span class="badge bg-primary">About</span></h4>
+</div>
+<div class="col-md-11 offset-md-1">
+<span class="lead">
+Since the Fall of 2007 I have been a Research Scientist with <a href="https://goo.gl/maps/9fS9ZL477DL9UPoG7">Google in New York City</a>.
+Prior to joining <a href="http://research.google.com/pubs/AmeeshMakadia.html">Google Research</a> (aka <a href="https://ai.google/research/">Google AI</a>),
+I completed my PhD in the <a href="https://www.grasp.upenn.edu/">GRASP Lab</a> at <a href="https://www.cis.upenn.edu/">UPENN</a>.
+<br><br>
+At Google, I lead a research team working at the intersection of Computer Vision and Machine Learning. Please contact me for internship or full-time opportunities.
+<br>
+<!--
+<a class="btn btn-outline-primary btn-sm" href="documents/makadia_cv_one_page.pdf" role="button">CV (abridged)</a>
+<a class="btn btn-outline-primary btn-sm" href="documents/makadia_research_statement.pdf" role="button">Research Statement</a>
+-->
+</span>
+</div>
+<hr class="featurette-divider">
+
+</div>
+
+</div>
+</div>
+
+
+
+
+<!--  <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#000000"/></svg>
+        <div class="overlay-image" style="background-image:url(./cvpr21_composite.png);"></div>
+        <div class="container">
+          <div class="carousel-caption">
+
+            <br><h3>CVPR 2021<br>3 papers accepted. arXiv coming soon!</h3>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+              <h1>Example headline.</h1>
+              <p>Some representative placeholder content for the first slide of the carousel.</p>
+              <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+
+
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+-->
+
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+
+    <!-- Three columns of text below the carousel -->
+    <!--
+    <div class="container marketing">
+    <div class="row">
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div><
+      <div class="col-lg-4">
+        <svg class="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Heading</h2>
+        <p>And lastly this, the third column of representative placeholder content.</p>
+        <p><a class="btn btn-secondary" href="#">View details &raquo;</a></p>
+      </div>
+    </div>
+-->
+
+
+
+    <!-- START THE FEATURETTES -->
+    <br>
+    <div class="container" id="Publications" style="padding-top: 50px; margin-top: -50px;">
+      <div class="row featurette">
+        <div class="col-md-11 offset-md-0">
+    <h4><span class="badge bg-primary">Publications</span></h4>
+    <div class="lead col-md-10 offset-md-0">Select publications are listed below. See <a href="https://scholar.google.com/citations?user=OT1uf7kAAAAJ&hl=en">Scholar</a> for the full list.</div>
+    </div>
+    </div>
+    </div>
+
+        <div class="container">
+
+
+    <!--<hr class="featurette-divider">-->
+<br><br>
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img alternate="ASIC
+ Teaser" src="./media/skulls.gif" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead">
+	   Single Mesh Diffusion Models with Field Latents for Texture Generation<br>
+       <span class="text-muted">
+         Thomas W Mitchel, Carlos Esteves, and Ameesh Makadia<br>
+        arXiv, December 2023<br>
+      <a class="btn btn-outline-primary btn-sm" href="https://single-mesh-diffusion.github.io/">Website</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/abs/2312.09250">PDF</a>
+      <a class="btn btn-outline-primary btn-sm" href="./bib/texgen_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img alternate="NAVI
+ Teaser" src="./media/navidata_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead">
+      <span class="badge rounded-pill bg-success">NeurIPS'23</span>
+	   NAVI: Category-Agnostic Image Collections with High-Quality 3D Shape and Pose Annotations<br>
+       <span class="text-muted">
+         Varun Jampani, Kevis-Kokitsi Maninis, Andreas Engelhardt, Arjun Karpur, Karen Truong, Kyle Sargent, Stefan Popov, André Araujo, Ricardo Martin-Brualla, Kaushal Patel, Daniel Vlasic, Vittorio Ferrari, Ameesh Makadia, Ce Liu, Yuanzhen Li, and Howard Zhou<br>
+        Neural Information Processing Systems (NeurIPS), December 2023<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://navidataset.github.io/">Website</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2306.09109.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/navi_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img alternate="ASIC
+ Teaser" src="./media/lunerf_teaser.png" class="img-fluid" max-width=10>
+  </div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead"><span class="badge rounded-pill bg-success">ICCV'23</span>
+	   LU-NeRF: Scene and Pose Estimation by Synchronizing Local Unposed NeRFs<br>
+       <span class="text-muted">
+         Zezhou Cheng, Carlos Esteves, Varun Jampani, Abhishek Kar, Subhransu Maji, and Ameesh Makadia<br>
+        International Conference on Computer Vision (ICCV), October 2023<br>
+      <a class="btn btn-outline-primary btn-sm" href="https://people.cs.umass.edu/~zezhoucheng/lu-nerf/">Website</a>
+      <a class="btn btn-outline-primary btn-sm" href="http://arxiv.org/abs/2306.05410">PDF</a>
+      <a class="btn btn-outline-primary btn-sm" href="./bib/lunerf_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img alternate="ASIC
+ Teaser" src="./media/instancewise_teaser.png" class="img-fluid" max-width=224>
+  </div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead"><span class="badge rounded-pill bg-success">ICCV'23</span>
+	   Learning to Transform for Generalizable Instance-wise Invariance<br>
+       <span class="text-muted">
+         Utkarsh Singhal, Carlos Esteves, Ameesh Makadia, and Stella X. Yu<br>
+        International Conference on Computer Vision (ICCV), October 2023<br>
+      <a class="btn btn-outline-primary btn-sm" href="https://sutkarsh.github.io/projects/learned_invariance">Website</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/abs/2309.16672">PDF</a>
+      <a class="btn btn-outline-primary btn-sm" href="./bib/instancewise_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img alternate="ASIC
+ Teaser" src="./media/asic_teaser.png" class="img-fluid" max-width=224>
+  </div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead"><span class="badge rounded-pill bg-success">ICCV'23</span>
+      <span class="badge rounded-pill bg-danger">Oral</span>
+	   ASIC: Aligning sparse in-the-wild image collections<br>
+       <span class="text-muted">
+         Kamal Gupta, Varun Jampani, Carlos Esteves, Abhinav Shrivastava, Ameesh Makadia, Noah Snavely, and Abhishek Kar<br>
+        International Conference on Computer Vision (ICCV), October 2023<br>
+      <a class="btn btn-outline-primary btn-sm" href="https://kampta.github.io/asic/">Website</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2303.16201.pdf">PDF</a>
+      <a class="btn btn-outline-primary btn-sm" href="./bib/asic_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img alternate="Scaling Spherical CNNs
+ Teaser" src="./media/sphwind.gif" class="img-fluid" max-width=224>
+  </div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead"><span class="badge rounded-pill bg-success">ICML'23</span>
+	   Scaling Spherical CNNs<br>
+       <span class="text-muted">
+         Carlos Esteves, Jean-Jacques Slotine, and Ameesh Makadia<br>
+        International Conference on Machine Learning (ICML), June 2023<br>
+      <a class="btn btn-outline-primary btn-sm" href="https://github.com/google-research/spherical-cnn">Code</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://blog.research.google/2023/10/scalable-spherical-cnns-for-scientific.html">GoogleAI Blog</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2306.05420.pdf">PDF</a>
+      <a class="btn btn-outline-primary btn-sm" href="./bib/scalingsphcnn_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img alternate="Generalizable Patch-Based Neural Rendering
+ Teaser" src="./media/gpnr_teaser.jpg" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead"><span class="badge rounded-pill bg-success">ECCV'22</span><span class="badge rounded-pill bg-danger">Oral</span>
+	   Generalizable Patch-Based Neural Rendering<br>
+       <span class="text-muted">
+         Mohammed Suhail, Carlos Esteves, Leonid Sigal, Ameesh Makadia<br>
+        European Conference on Computer Vision (ECCV), October 2022<br>
+      <a class="btn btn-outline-primary btn-sm" href="https://mohammedsuhail.net/gen_patch_neural_rendering/">Website</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://github.com/google-research/google-research/tree/master/gen_patch_neural_rendering">Code</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/abs/2207.10662">PDF</a>
+      <a class="btn btn-outline-primary btn-sm" href="./bib/gpnr_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <video autoplay loop muted playsinline class="img-fluid" width=256 alternate="Light Field Neural Rendering Teaser">
+<source src="./media/lfnr_teaser.mp4" type="video/mp4">
+</video>
+  </div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead"><span class="badge rounded-pill bg-success">CVPR'22</span><span class="badge rounded-pill bg-danger">Oral</span>
+       Light Field Neural Rendering<br>
+       <span class="text-muted">
+         Mohammed Suhail, Carlos Esteves, Leonid Sigal, Ameesh Makadia<br>
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2021<br>
+<span style="color:red">Best Paper Finalist (33 finalists from 8161 submissions)</span><br>
+      <a class="btn btn-outline-primary btn-sm" href="https://light-field-neural-rendering.github.io/">Website</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://github.com/google-research/google-research/tree/master/light_field_neural_rendering">Code</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2112.09687.pdf">PDF</a>
+      <a class="btn btn-outline-primary btn-sm" href="./bib/lfnr_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+<div class="col-md-3 offset-md-0">
+<img src="./media/abc_teaser.gif" class="img-fluid" max-width=256>
+</div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead"><span class="badge rounded-pill bg-success">CVPR'22</span><span class="badge rounded-pill bg-danger">Oral</span>
+Learning ABCs: Approximate Bijective Correspondence for isolating factors of variation<br>
+       <span class="text-muted">
+         Kieran A. Murphy, Varun Jampani, Srikumar Ramalingam, Ameesh Makadia<br>
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2021<br>
+      <!-- <a class="btn btn-outline-primary btn-sm" href="https://light-field-neural-rendering.github.io/">Website</a> -->
+      <a class="btn btn-outline-primary btn-sm" href="https://github.com/google-research/google-research/tree/master/isolating_factors">Code</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2103.03240.pdf">PDF</a>
+      <a class="btn btn-outline-primary btn-sm" href="./bib/abc_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <video autoplay loop muted playsinline class="img-fluid" max-width="100%" alternate="Infinite Nature Teaser Video">
+<source src="./media/inf_teaser_loop_crop.mp4" type="video/mp4">
+</video>
+  </div>
+    <div class="col-md-9 offset-md-0">
+      <p class="lead"><span class="badge rounded-pill bg-success">ICCV'21</span>
+      <span class="badge rounded-pill bg-danger">Oral</span> Infinite Nature: Perpetual View Generation of Natural Scenes from a Single Image<br>
+       <span class="text-muted">
+         Andrew Liu*, Richard Tucker*, Varun Jampani, Ameesh Makadia, Noah Snavely, Angjoo Kanazawa<br>
+      International Conference on Computer Vision (ICCV), October 2021
+      <br>
+      <a class="btn btn-outline-primary btn-sm" href="https://infinite-nature.github.io/">Website</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://github.com/google-research/google-research/tree/master/infinite_nature">Code</a>
+      <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/abs/2012.09855f">PDF</a>
+      <a class="btn btn-outline-primary btn-sm" href="./bib/inf_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img src="./media/ipdf_teaser.gif" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">ICML'21</span>
+      Implicit Representation of Probability Distributions on the Rotation Manifold<br>
+       <span class="text-muted">
+         Kieran Murphy, Carlos Esteves, Varun Jampani, Srikumar Ramalingam, Ameesh Makadia<br>
+         International Conference on Machine Learning (ICML), July 2021<br>
+<a class="btn btn-outline-primary btn-sm" href="http://implicit-pdf.github.io/">Website</a>
+<a class="btn btn-outline-primary btn-sm" href="https://github.com/google-research/google-research/tree/master/implicit_pdf/">Code</a>
+<a class="btn btn-outline-primary btn-sm" href="https://www.tensorflow.org/datasets/catalog/symmetric_solids">Dataset</a>
+<a class="btn btn-outline-primary btn-sm" href="https://colab.research.google.com/github/implicit-pdf/implicit-pdf.github.io/blob/main/ipdf_files/ipdf_inference_demo_pascal.ipynb
+">Colab</a>
+<a class="btn btn-outline-primary btn-sm" href="./bib/ipdf_bib.txt">Bibtex</a><br>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img src="./media/derender_teaser.gif" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'21</span>
+      De-rendering the World’s Revolutionary Artefacts<br>
+       <span class="text-muted">
+         Shangzhe Wu, Ameesh Makadia, Jiajun Wu, Noah Snavely, Richard Tucker, Angjoo Kanazawa<br>
+         IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2021<br>
+<a class="btn btn-outline-primary btn-sm" href="https://sorderender.github.io/">Website</a>
+<a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2104.03954.pdf">PDF</a>
+<a class="btn btn-outline-primary btn-sm" href="./bib/sor_bib.txt">Bibtex</a><br>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img src="./media/keypointjakab.jpg" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'21</span>
+      <span class="badge rounded-pill bg-danger">Oral</span>
+      KeypointDeformer: Unsupervised 3D Keypoint Discovery for Shape Control<br>
+       <span class="text-muted">
+         Tomas Jakab, Richard Tucker, Ameesh Makadia, Jiajun Wu, Noah Snavely, Angjoo Kanazawa<br>
+         IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2021<br>
+<a class="btn btn-outline-primary btn-sm" href="https://tomasjakab.github.io/KeypointDeformer/">Website</a>
+<a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2104.11224.pdf">PDF</a>
+<a class="btn btn-outline-primary btn-sm" href="./bib/keydef_bib.txt">Bibtex</a><br>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img src="./media/directionnet.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'21</span>
+      Wide-Baseline Relative Camera Pose Estimation with Directional Learning<br>
+       <span class="text-muted">
+         Kefan Chen, Noah Snavely, Ameesh Makadia<br>
+         IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2021<br>
+<a class="btn btn-outline-primary btn-sm" href="https://arthurchen0518.github.io/DirectionNet">Website</a>
+<a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2106.03336.pdf">PDF</a>
+<a class="btn btn-outline-primary btn-sm" href="./bib/widebase_bib.txt">Bibtex</a><br>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img src="./media/svd_teaser.gif" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">NeurIPS'20</span>
+      An Analysis of SVD for Deep Rotation Estimation<br>
+      <span class="text-muted">
+        Jake Levinson, Carlos Esteves, Kefan Chen, Noah Snavely, Angjoo Kanazawa, Afshin Rostamizadeh, Ameesh Makadia<br>
+        Neural Information Processing Systems (NeurIPS), December 2020<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://www.youtube.com/watch?v=_lvz3KdZr_I"><img height=20px src="./media/yticon.png"/>Video</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://github.com/google-research/google-research/tree/master/special_orthogonalization">Code</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2006.14616.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/svd_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img src="./media/swcnn_teaser.jpg" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">NeurIPS'20</span>
+      Spin-Weighted Spherical CNNs<br>
+      <span class="text-muted">
+        Carlos Esteves, Ameesh Makadia, Kostas Daniilidis<br>
+        Neural Information Processing Systems (NeurIPS), December 2020<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://www.youtube.com/watch?v=TnFvOa9v7do&list=PL7VfmMOOwNlJ5PndlhiMwjvqDTA6m1Z9i&index=8&t=0s"><img height=20px src="./media/yticon.png"/>Video</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2006.10731">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/swcnn_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <video autoplay loop muted playsinline class="img-fluid" max-width="100%" alternate="Infinite Nature Teaser Video">
+  <source src="./media/lig_teaser.mp4" type="video/mp4">
+  </video>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'20</span>
+      Local Implicit Grid Representations for 3D Scenes<br>
+      <span class="text-muted">
+        Chiyu "Max" Jiang, Avneesh Sud, Ameesh Makadia, Jingwei Huang, Matthias Nießner, Tom Funkhouser<br>
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2020<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://www.maxjiang.ml/proj/lig">Website</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://github.com/tensorflow/graphics/tree/master/tensorflow_graphics/projects/local_implicit_grid">Code</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2003.08981.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/lig_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+  <img src="./media/neuralode_teaser.jpg" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-secondary">arXiv</span>
+      Time Dependence in Non-Autonomous Neural ODEs<br>
+      <span class="text-muted">
+        Jared Quincy Davis, Krzysztof Choromanski, Jake Varley, Honglak Lee, Jean-Jacques Slotine, Valerii Likhosterov, Adrian Weller, Ameesh Makadia, Vikas Sindhwani<br>
+        arXiv, May 2020<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/2005.01906.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/neuralode_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/crossdomain_teaser.gif" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">ICML'19</span>
+      Cross-Domain 3D Equivariant Image Embeddings<br>
+      <span class="text-muted">
+        Carlos Esteves, Avneesh Sud, Zhengyi Luo, Kostas Daniilidis, and Ameesh Makadia<br>
+        International Conference on Machine Learning (ICML), June 2019<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://github.com/machc/spherical_embeddings">Code</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://machc.github.io/downloads/sphemb_poster.pdf">Poster</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/1812.02716.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/crossdomain_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/tfg_teaser.jpg" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">Google I/O</span>
+      Tensorflow Graphics: Computer Graphics Meets Deep Learning<br>
+      <span class="text-muted">
+        Julien Valentin, Cem Keskin, Pavel Pidlypenskyi, Ameesh Makadia, Avneesh Sud, and Sofien Bouaziz<br>
+        2019<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://github.com/tensorflow/graphics">Project (a core TF Library)</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/tfg_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/labelpano_teaser.gif" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">ECCV Workshops</span>
+      Labeling Panoramas with Spherical Hourglass Networks<br>
+      <span class="text-muted">
+        Carlos Esteves, Kostas Daniilidis, and Ameesh Makadia<br>
+        360-degree Perception and Interaction Workshop at ECCV, September 2018<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/1809.02123.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/labelpano_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/s2cnn_teaser.gif" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">ECCV'18</span>
+      <span class="badge rounded-pill bg-danger">Oral and 12 best</span>
+      Learning SO(3) Equivariant Representations with Spherical CNNs<br>
+      <span class="text-muted">
+        Carlos Esteves, Christine Allen-Blanchette, Ameesh Makadia, and Kostas Daniilidis<br>
+        European Conference on Computer Vision (ECCV), September 2018<br>
+        <span style="color:red">Selected as one of the best 12 papers by the Program Committee (0.4% - 776 accepted papers, 2.5K submissions)</span><br>
+        <a class="btn btn-outline-primary btn-sm" href="https://www.youtube.com/watch?v=Y86rzE4UzKs"><img height=20px src="./media/yticon.png"/>Talk</a>
+        <a class="btn btn-outline-primary btn-sm" href="http://github.com/daniilidis-group/spherical-cnn">Code</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/1711.06721.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="https://link.springer.com/epdf/10.1007/s11263-019-01220-1?author_access_token=d2JqnfxB8xLTQMWw-yK4MPe4RwlQNchNByi7wbcMAY4yX9jtf9D2d7MGgKyldwRM0efWpAcjmFofe0WWOYhZbMl00zoVHZ3vV8zt8g7j25HwAIVOGG_gD9ne8AunZhnKoHR306t6_rGU7YYn4oD_rg%3D%3D">"Best of ECCV" IJCV Special Issue</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/s2cnn_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/meshvae_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'18</span>
+      Deformable Shape Completion with Graph Convolutional Autoencoders<br>
+      <span class="text-muted">
+        Or Litany, Alex Bronstein, Michael Bronstein, and Ameesh Makadia<br>
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2018<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/1712.00268.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/meshvae_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/sos_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">RSS'17</span>
+      Geometry of 3D Environments and Sum of Squares Polynomials<br>
+      <span class="text-muted">
+        Amir Ali Ahmadi, Georgina Hall, Ameesh Makadia, and Vikas Sindhwani<br>
+        Robotics: Science and Systems (RSS), July 2017<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://arxiv.org/pdf/1611.07369v1.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/sos_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/3dpart_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">3DV'14</span>
+      <span class="badge rounded-pill bg-danger">Oral</span>
+      Learning 3D Part Detection from Sparsely Labeled Data<br>
+      <span class="text-muted">
+        Ameesh Makadia and Mehmet Yumer<br>
+        3DV, December 2014<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia_yumer_3dv_2014.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/3dpart_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/coseg3d_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'14</span>
+      Co-Segmentation of Textured 3D Shapes with Sparse Annotations<br>
+      <span class="text-muted">
+        Mehmet Yumer, Won Chun, and Ameesh Makadia<br>
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2014<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/yumer14cvpr.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/yumer14cvpr_supp.pdf">Supplemental</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/coseg3d_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/sublinearranking_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">ICML'13</span>
+      Label Partitioning For Sublinear Ranking<br>
+      <span class="text-muted">
+        Jason Weston, Ameesh Makadia, and Hector Yee<br>
+        International Conference on Machine Learning (ICML), June 2013<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/label_partitioner.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/sublinearranking_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/annotationijcv_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">IJCV'10</span>
+      Baselines for Image Annotation<br>
+      <span class="text-muted">
+        Ameesh Makadia, Vladimir Pavlovic, and Sanjiv Kumar<br>
+        International Journal of Computer Vision (IJCV), Volume 90, Issue 1, October 2010<br>
+        <a class="btn btn-outline-primary btn-sm" href="./annotation">Website and Data</a>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/baselines10ijcv.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/baselinesijcv_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/featuretrack_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">ECCV'10</span>
+      Feature Tracking for Wide-Baseline Image Retrieval<br>
+      <span class="text-muted">
+        Ameesh Makadia<br>
+        European Conference on Computer Vision (ECCV), September 2010<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia10eccv.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/featuretrack_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/3dretrieval_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">IJVC'10</span>
+      Spherical Correlation of Visual Representations for 3D Model Retrieval<br>
+      <span class="text-muted">
+        Ameesh Makadia and Kostas Daniilidis<br>
+        International Journal of Computer Vision (IJCV), Vol. 89, Issue 2, September 2010<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia10ijcv.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/3dretrieval_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/3dvideo_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'09</span>
+      Shape-based Object Recognition in Videos Using 3D Synthetic Object Models<br>
+      <span class="text-muted">
+        Alexander Toshev, Ameesh Makadia, and Kostas Daniilidis<br>
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), May 2009<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/ctoshev09cvpr.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/3dvideo_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/annotationeccv_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">ECCV'08</span>
+      A New Baseline for Image Annotation<br>
+      <span class="text-muted">
+        Ameesh Makadia, Vladimir Pavlovic, and Sanjiv Kumar<br>
+        European Conference on Computer Vision (ECCV), October 2008<br>
+        <a class="btn btn-outline-primary btn-sm" href="./annotation">Website and Data</a>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia08eccv.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/baselineseccv_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/corrfreesfm_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">IJCV'07</span>
+      Correspondence-free Structure from Motion<br>
+      <span class="text-muted">
+        Ameesh Makadia and Christopher Geyer and Kostas Daniilidis<br>
+        International Journal of Computer Vision (IJCV), Vol. 75, No. 3, December, 2007<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia06ijcvsubmitted.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/corrfreesfm_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/harmonic_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">3DTV'07</span>
+      Harmonic Silhouette Matching for 3D Models<br>
+      <span class="text-muted">
+        Ameesh Makadia, Mirko Visontai, and Kostas Daniilidis<br>
+        3DTV, May 2007<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia073dtv.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/harmonic_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/thesis_teaser.gif" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">Ph.D. Dissertation</span>
+      <span class="badge rounded-pill bg-danger">Best thesis award</span>
+      Robust correspondence-free algorithms for 3D motion recovery<br>
+      <span class="text-muted">
+        Ameesh Makadia<br>
+        Computer and Information Science, University of Pennsylvania, 2007<br>
+        <span style="color:red">Morris and Dorothy Rubinoff Award for the best CIS PhD dissertation</span><br>
+        <a class="btn btn-outline-primary btn-sm" href="https://repository.upenn.edu/dissertations/AAI3260951/">Thesis</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/thesis_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/ptreg_teaser.gif" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'06</span>
+      <span class="badge rounded-pill bg-danger">Oral</span>
+      Fully Automatic Registration of 3D Point Clouds<br>
+      <span class="text-muted">
+        Ameesh Makadia, Alexander Patterson, and Kostas Daniilidis<br>
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June, 2006<br>
+        <span style="color:red">Oral presentation (acceptance ratio 6%)</span><br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia06cvpr.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/ptreg_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/constrainednav_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">Book chapter</span>
+      Correspondenceless Visual Navigation under Constrained Motion<br>
+      <span class="text-muted">
+        Ameesh Makadia<br>
+        Kluwer Press, 2006<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://link.springer.com/chapter/10.1007%2F978-1-4020-4894-4_13">Chapter</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/constrainednav_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/rotpami_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">TPAMI</span>
+      Rotation Recovery from Spherical Images without Correspondences<br>
+      <span class="text-muted">
+        Ameesh Makadia and Kostas Daniilidis<br>
+        IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), Vol. 28, No. 7, July 2006<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia06pami.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/rotpami_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/radon_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'05</span>
+      <span class="badge rounded-pill bg-danger">Oral</span>
+      Radon-based Structure from Motion Without Correspondences<br>
+      <span class="text-muted">
+        Ameesh Makadia, Christopher Geyer, Shankar Sastry, and Kostas Daniilidis<br>
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2005<br>
+        <span style="color:red">Oral presentation (acceptance ratio 6%)</span><br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia05cvpr.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/radon_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/planar_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">WACV/MOTION'05</span>
+      Planar Ego-Motion Without Correspondences<br>
+      <span class="text-muted">
+        Ameesh Makadia, Dinkar Gupta, and Kostas Daniilidis<br>
+        IEEE Workshops on Applications of Computer Vision (WACV/MOTION), Volume 1, January 2005<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia05motion.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/planar_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/icpr_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">ICPR'04</span>
+      Rotation Estimation from Spherical Images<br>
+      <span class="text-muted">
+        Ameesh Makadia, Lorenzo Sorgi, and Kostas Daniilidis<br>
+        International Conference on Pattern Recognition (ICPR), August 2004<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia04icpr.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/icpr_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/directrot_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">CVPR'03</span>
+      <span class="badge rounded-pill bg-danger">Oral</span>
+      Direct 3D-Rotation Estimation from Spherical Images via a Generalized Shift Theorem<br>
+      <span class="text-muted">
+        Ameesh Makadia and Kostas Daniilidis<br>
+        IEEE Conference on Computer Vision and Pattern Recognition (CVPR), June 2003<br>
+        <span style="color:red">Oral presentation (acceptance ratio 6%)</span><br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/makadia03cvpr.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/directrot_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/omnisense_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">Book chapter</span>
+      Omnidirectional Sensing for Robot Control<br>
+      <span class="text-muted">
+        Kostas Daniilidis, Christopher Geyer, Volkan Isler, and Ameesh Makadia<br>
+        Control Problems in Robotics, Springer-Verlag, 2002<br>
+        <a class="btn btn-outline-primary btn-sm" href="https://link.springer.com/chapter/10.1007%2F3-540-36224-X_12">Chapter</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/omnisense_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+<div class="row featurette">
+  <div class="col-md-3 offset-md-0">
+    <img src="./media/omnivis_teaser.png" class="img-fluid" max-width=256>
+  </div>
+    <div class="col-md-9 offset-md-0">
+    <p class="lead"><span class="badge rounded-pill bg-success">OMNIVIS'02</span>
+      Image Processing in Catadioptric Planes: Spatiotemporal Derivatives and Optical Flow Computation<br>
+      <span class="text-muted">
+        Kostas Daniilidis, Ameesh Makadia, and Thomas B&uumllow<br>
+        Workshop on Omnidirectional Vision, in conjunction with ECCV 2002, June 2002<br>
+        <a class="btn btn-outline-primary btn-sm" href="./publications/dani02omnivis.pdf">PDF</a>
+        <a class="btn btn-outline-primary btn-sm" href="./bib/omnivis_bib.txt">Bibtex</a>
+    </span>
+    </p>
+  </div>
+</div>
+<hr class="featurette-divider">
+
+
+    <!-- /END THE FEATURETTES -->
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Back to top</a></p>
+    <p>Page last updated December 2023.</p>
+  </footer>
+</main>
+
+
+<!--    <script src="./assets/dist/js/bootstrap.bundle.min.js"></script>
+-->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+
+  </body>
+</html>
