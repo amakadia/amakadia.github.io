@@ -1,0 +1,9 @@
+@misc{suhail2024fourplanefactorizedvideoautoencoders,
+      title={Four-Plane Factorized Video Autoencoders}, 
+      author={Mohammed Suhail and Carlos Esteves and Leonid Sigal and Ameesh Makadia},
+      year={2024},
+      eprint={2412.04452},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.04452}, 
+}

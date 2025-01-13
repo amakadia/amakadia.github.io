@@ -1,0 +1,9 @@
+@misc{esteves2024spectralimagetokenizer,
+      title={Spectral Image Tokenizer}, 
+      author={Carlos Esteves and Mohammed Suhail and Ameesh Makadia},
+      year={2024},
+      eprint={2412.09607},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2412.09607}, 
+}
